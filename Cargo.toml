@@ -4,3 +4,19 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+
+[[bin]]
+name = "two_sum"
+path = "src/bin/two_sum.rs"
+
+[[bin]]
+name = "add_two_numbers"
+path = "src/bin/add_two_numbers.rs"
+
+[[bin]]
+name = "substring_without_repeating"
+path = "src/bin/substring_without_repeating.rs"
+
+[[bin]]
+name = "median_of_two_sorted_arrays"
+path = "src/bin/median_of_two_sorted_arrays.rs"

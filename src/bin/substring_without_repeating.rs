@@ -21,3 +21,44 @@ pub fn length_of_longest_substring(s: String) -> i32 {
     max_length as i32
 }
 fn main() {}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_empty_string() {
+        let result = length_of_longest_substring("".to_string());
+        assert_eq!(result, 0);
+    }
+
+    #[test]
+    fn test_single_char() {
+        let result = length_of_longest_substring("a".to_string());
+        assert_eq!(result, 1);
+    }
+
+    #[test]
+    fn test_all_unique() {
+        let result = length_of_longest_substring("abcdef".to_string());
+        assert_eq!(result, 6);
+    }
+
+    #[test]
+    fn test_some_repeats() {
+        let result = length_of_longest_substring("abcabcbb".to_string());
+        assert_eq!(result, 3); // "abc"
+    }
+
+    #[test]
+    fn test_all_same() {
+        let result = length_of_longest_substring("aaaaaaa".to_string());
+        assert_eq!(result, 1);
+    }
+
+    #[test]
+    fn test_middle_repeat() {
+        let result = length_of_longest_substring("pwwkew".to_string());
+        assert_eq!(result, 3); // "wke"
+    }
+}
