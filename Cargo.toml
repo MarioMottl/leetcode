@@ -20,3 +20,7 @@ path = "src/bin/substring_without_repeating.rs"
 [[bin]]
 name = "median_of_two_sorted_arrays"
 path = "src/bin/median_of_two_sorted_arrays.rs"
+
+[[bin]]
+name = "longest_common_prefix"
+path = "src/bin/longest_common_prefix.rs"
