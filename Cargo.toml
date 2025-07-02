@@ -48,3 +48,7 @@ path = "src/bin/find_index_fist_occurrence_string.rs"
 [[bin]]
 name = "search_insert_position"
 path = "src/bin/search_insert_position.rs"
+
+[[bin]]
+name = "length_of_last_word"
+path = "src/bin/length_of_last_word.rs"
