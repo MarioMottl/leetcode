@@ -24,3 +24,7 @@ path = "src/bin/median_of_two_sorted_arrays.rs"
 [[bin]]
 name = "longest_common_prefix"
 path = "src/bin/longest_common_prefix.rs"
+
+[[bin]]
+name = "valid_parenthesis"
+path = "src/bin/valid_parenthesis.rs"
