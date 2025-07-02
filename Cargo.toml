@@ -32,3 +32,7 @@ path = "src/bin/valid_parenthesis.rs"
 [[bin]]
 name = "merge_two_sorted_lists"
 path = "src/bin/merge_two_sorted_lists.rs"
+
+[[bin]]
+name = "remove_duplicates_from_sorted_array"
+path = "src/bin/remove_duplicates_from_sorted_array.rs"
