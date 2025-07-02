@@ -40,3 +40,7 @@ path = "src/bin/remove_duplicates_from_sorted_array.rs"
 [[bin]]
 name = "remove_element"
 path = "src/bin/remove_element.rs"
+
+[[bin]]
+name = "find_index_fist_occurrence_string"
+path = "src/bin/find_index_fist_occurrence_string.rs"
