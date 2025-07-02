@@ -52,3 +52,11 @@ path = "src/bin/search_insert_position.rs"
 [[bin]]
 name = "length_of_last_word"
 path = "src/bin/length_of_last_word.rs"
+
+[[bin]]
+name = "plus_one"
+path = "src/bin/plus_one.rs"
+
+[[bin]]
+name = "add_binary"
+path = "src/bin/add_binary.rs"
