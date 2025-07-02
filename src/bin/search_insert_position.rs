@@ -1,3 +1,4 @@
+#[allow(unused)]
 fn search_insert(nums: Vec<i32>, target: i32) -> i32 {
     let (mut left, mut right) = (0, nums.len() as i32 - 1);
 
@@ -12,7 +13,6 @@ fn search_insert(nums: Vec<i32>, target: i32) -> i32 {
         }
     }
 
-    // At this point, left is the insert position
     left
 }
 
@@ -20,5 +20,7 @@ fn main() {}
 
 #[cfg(test)]
 mod tests {
+
+    #[allow(unused)]
     use super::*;
 }

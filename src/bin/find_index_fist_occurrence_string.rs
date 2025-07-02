@@ -1,3 +1,4 @@
+#[allow(unused)]
 fn str_str(haystack: String, needle: String) -> i32 {
     if haystack.contains(&needle) {
         return haystack
