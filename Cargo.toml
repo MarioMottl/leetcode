@@ -28,3 +28,7 @@ path = "src/bin/longest_common_prefix.rs"
 [[bin]]
 name = "valid_parenthesis"
 path = "src/bin/valid_parenthesis.rs"
+
+[[bin]]
+name = "merge_two_sorted_lists"
+path = "src/bin/merge_two_sorted_lists.rs"
