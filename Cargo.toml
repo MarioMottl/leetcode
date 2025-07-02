@@ -60,3 +60,7 @@ path = "src/bin/plus_one.rs"
 [[bin]]
 name = "add_binary"
 path = "src/bin/add_binary.rs"
+
+[[bin]]
+name = "longest_palindromic_substring"
+path = "src/bin/longest_palindromic_substring.rs"
