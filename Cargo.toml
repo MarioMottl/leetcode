@@ -68,3 +68,7 @@ path = "src/bin/longest_palindromic_substring.rs"
 [[bin]]
 name = "zigzag_conversion"
 path = "src/bin/zigzag_conversion.rs"
+
+[[bin]]
+name = "reverse_integer"
+path = "src/bin/reverse_integer.rs"
