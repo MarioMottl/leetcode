@@ -1,3 +1,4 @@
+#[allow(unused)]
 fn add_binary(a: String, b: String) -> String {
     let (mut i, mut j) = (a.len() as i32 - 1, b.len() as i32 - 1);
     let (a_bytes, b_bytes) = (a.as_bytes(), b.as_bytes());

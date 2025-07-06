@@ -76,3 +76,7 @@ path = "src/bin/reverse_integer.rs"
 [[bin]]
 name = "string_to_integer"
 path = "src/bin/string_to_integer.rs"
+
+[[bin]]
+name = "palindrome_number"
+path = "src/bin/palindrome_number.rs"
