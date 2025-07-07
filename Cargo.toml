@@ -3,8 +3,6 @@ name = "leetcode"
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
-
 [[bin]]
 name = "two_sum"
 path = "src/bin/two_sum.rs"
@@ -84,3 +82,7 @@ path = "src/bin/palindrome_number.rs"
 [[bin]]
 name = "container_with_most_water"
 path = "src/bin/container_with_most_water.rs"
+
+[[bin]]
+name = "three_sum"
+path = "src/bin/three_sum.rs"
