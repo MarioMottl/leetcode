@@ -80,3 +80,7 @@ path = "src/bin/string_to_integer.rs"
 [[bin]]
 name = "palindrome_number"
 path = "src/bin/palindrome_number.rs"
+
+[[bin]]
+name = "container_with_most_water"
+path = "src/bin/container_with_most_water.rs"
