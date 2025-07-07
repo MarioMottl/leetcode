@@ -86,3 +86,7 @@ path = "src/bin/container_with_most_water.rs"
 [[bin]]
 name = "three_sum"
 path = "src/bin/three_sum.rs"
+
+[[bin]]
+name = "letter_combination_phone_number"
+path = "src/bin/letter_combination_phone_number.rs"
