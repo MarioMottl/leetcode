@@ -98,3 +98,7 @@ path = "src/bin/climbing_stairs.rs"
 [[bin]]
 name = "simplify_path"
 path = "src/bin/simplify_path.rs"
+
+[[bin]]
+name = "set_matrix_zeroes"
+path = "src/bin/set_matrix_zeroes.rs"
