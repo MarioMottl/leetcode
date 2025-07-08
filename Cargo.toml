@@ -122,3 +122,7 @@ path = "src/bin/swap_nodes_in_pairs.rs"
 [[bin]]
 name = "reverse_nodes_in_k_group"
 path = "src/bin/reverse_nodes_in_k_group.rs"
+
+[[bin]]
+name = "word_subsets"
+path = "src/bin/word_subsets.rs"
