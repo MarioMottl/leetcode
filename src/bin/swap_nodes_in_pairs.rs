@@ -10,7 +10,7 @@ impl ListNode {
     }
 }
 
-pub fn swap_pairs(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+pub fn swap_pairs(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
     let mut dummy = Some(Box::new(ListNode { val: 0, next: head }));
     let mut prev = dummy.as_mut();
 
