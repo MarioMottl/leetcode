@@ -90,3 +90,7 @@ path = "src/bin/three_sum.rs"
 [[bin]]
 name = "letter_combination_phone_number"
 path = "src/bin/letter_combination_phone_number.rs"
+
+[[bin]]
+name = "climbing_stairs"
+path = "src/bin/climbing_stairs.rs"
