@@ -258,6 +258,13 @@ fn next_greater_elements(nums: &[i32]) -> Vec<i32> {
 Heaps (Priority Queue)
 
 Concept: Efficient access to the max or min element. Great for top-k problems or scheduling.
+
+BinaryHeap Traits needed
+- Ord -> must be implemented as not all fields including `next` implement them
+- PartialOrd -> must be implemented as not all fields including `next` implement them
+- Eq -> can be derived
+- PartialEq -> can be derived
+
 ```Rust
 use std::collections::BinaryHeap;
 use std::cmp::Reverse;

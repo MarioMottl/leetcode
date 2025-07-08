@@ -110,3 +110,7 @@ path = "src/bin/search_2d_matrix.rs"
 [[bin]]
 name = "generate_parentheses"
 path = "src/bin/generate_parentheses.rs"
+
+[[bin]]
+name = "merge_k_sorted_lists"
+path = "src/bin/merge_k_sorted_lists.rs"
