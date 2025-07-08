@@ -130,3 +130,7 @@ path = "src/bin/word_subsets.rs"
 [[bin]]
 name = "reverse_only_letters"
 path = "src/bin/reverse_only_letters.rs"
+
+[[bin]]
+name = "maximum_sum_circular_subarray"
+path = "src/bin/maximum_sum_circular_subarray.rs"

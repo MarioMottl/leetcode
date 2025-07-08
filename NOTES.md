@@ -37,6 +37,35 @@ fn min_subarray_len(target: i32, nums: &[i32]) -> usize {
     if min_len == usize::MAX { 0 } else { min_len }
 }
 ```
+
+Kadane's Algorithm (and Circular Subarrays)
+
+Concept: Find the maximum sum of a contiguous subarray using a greedy approach. For circular arrays, also compute the total sum minus the minimum subarray sum.
+
+```Rust
+fn max_subarray_sum_circular(nums: Vec<i32>) -> i32 {
+    use std::cmp::{max, min};
+
+    let total: i32 = nums.iter().sum();
+    let (mut max_sum, mut cur_max) = (i32::MIN, 0);
+    let (mut min_sum, mut cur_min) = (i32::MAX, 0);
+
+    for &num in &nums {
+        cur_max = max(cur_max + num, num);
+        max_sum = max(max_sum, cur_max);
+
+        cur_min = min(cur_min + num, num);
+        min_sum = min(min_sum, cur_min);
+    }
+
+    if max_sum < 0 {
+        max_sum
+    } else {
+        max(max_sum, total - min_sum)
+    }
+}
+```
+
 Binary Search
 
 Concept: Halve the search space to find a target in sorted data. Time complexity is O(log n).
