@@ -94,3 +94,7 @@ path = "src/bin/letter_combination_phone_number.rs"
 [[bin]]
 name = "climbing_stairs"
 path = "src/bin/climbing_stairs.rs"
+
+[[bin]]
+name = "simplify_path"
+path = "src/bin/simplify_path.rs"
