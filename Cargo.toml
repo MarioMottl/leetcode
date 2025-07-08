@@ -102,3 +102,7 @@ path = "src/bin/simplify_path.rs"
 [[bin]]
 name = "set_matrix_zeroes"
 path = "src/bin/set_matrix_zeroes.rs"
+
+[[bin]]
+name = "search_2d_matrix"
+path = "src/bin/search_2d_matrix.rs"
