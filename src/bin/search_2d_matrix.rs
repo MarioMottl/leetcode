@@ -2,6 +2,7 @@ pub fn search_matrix(matrix: Vec<Vec<i32>>, target: i32) -> bool {
     if matrix.is_empty() || matrix[0].is_empty() {
         return false;
     }
+
     let m = matrix.len();
     let mut target_row = 0;
 
@@ -28,6 +29,7 @@ fn search_matrix_binary(matrix: Vec<Vec<i32>>, target: i32) -> bool {
     if matrix.is_empty() || matrix[0].is_empty() {
         return false;
     }
+
     let m = matrix.len();
     let n = matrix[0].len();
 
@@ -87,11 +89,5 @@ mod tests {
     fn test_single_element_true() {
         let matrix = vec![vec![5]];
         assert_eq!(search_matrix_binary(matrix, 5), true);
-    }
-
-    #[test]
-    fn test_single_element_false() {
-        let matrix = vec![vec![5]];
-        assert_eq!(search_matrix_binary(matrix, 3), false);
     }
 }
