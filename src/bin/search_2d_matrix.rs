@@ -35,7 +35,7 @@ fn search_matrix_binary(matrix: Vec<Vec<i32>>, target: i32) -> bool {
 
     while left <= right {
         let mid = (left + right) / 2;
-        let middle_value = matrix[mid / 2][mid % 2];
+        let middle_value = matrix[mid / n][mid % n];
 
         if middle_value == target {
             return true;
@@ -56,42 +56,42 @@ mod tests {
     #[test]
     fn test_found_middle() {
         let matrix = vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]];
-        assert_eq!(search_matrix(matrix, 3), true);
+        assert_eq!(search_matrix_binary(matrix, 3), true);
     }
 
     #[test]
     fn test_not_found() {
         let matrix = vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]];
-        assert_eq!(search_matrix(matrix, 13), false);
+        assert_eq!(search_matrix_binary(matrix, 13), false);
     }
 
     #[test]
     fn test_found_last() {
         let matrix = vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]];
-        assert_eq!(search_matrix(matrix, 60), true);
+        assert_eq!(search_matrix_binary(matrix, 60), true);
     }
 
     #[test]
     fn test_found_first() {
         let matrix = vec![vec![1, 3, 5], vec![7, 9, 11]];
-        assert_eq!(search_matrix(matrix, 1), true);
+        assert_eq!(search_matrix_binary(matrix, 1), true);
     }
 
     #[test]
     fn test_empty_matrix() {
         let matrix: Vec<Vec<i32>> = vec![];
-        assert_eq!(search_matrix(matrix, 1), false);
+        assert_eq!(search_matrix_binary(matrix, 1), false);
     }
 
     #[test]
     fn test_single_element_true() {
         let matrix = vec![vec![5]];
-        assert_eq!(search_matrix(matrix, 5), true);
+        assert_eq!(search_matrix_binary(matrix, 5), true);
     }
 
     #[test]
     fn test_single_element_false() {
         let matrix = vec![vec![5]];
-        assert_eq!(search_matrix(matrix, 3), false);
+        assert_eq!(search_matrix_binary(matrix, 3), false);
     }
 }
