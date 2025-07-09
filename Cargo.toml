@@ -170,3 +170,7 @@ path = "src/bin/construct_rectangle.rs"
 [[bin]]
 name = "merge_sorted_array"
 path = "src/bin/merge_sorted_array.rs"
+
+[[bin]]
+name = "pascals_triangle"
+path = "src/bin/pascals_triangle.rs"
