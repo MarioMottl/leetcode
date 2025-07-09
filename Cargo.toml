@@ -162,3 +162,7 @@ path = "src/bin/sqrtx.rs"
 [[bin]]
 name = "remove_duplicates_from_sorted_list"
 path = "src/bin/remove_duplicates_from_sorted_list.rs"
+
+[[bin]]
+name = "construct_rectangle"
+path = "src/bin/construct_rectangle.rs"
