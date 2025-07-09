@@ -174,3 +174,7 @@ path = "src/bin/merge_sorted_array.rs"
 [[bin]]
 name = "pascals_triangle"
 path = "src/bin/pascals_triangle.rs"
+
+[[bin]]
+name = "pascals_triangle2"
+path = "src/bin/pascals_triangle2.rs"
