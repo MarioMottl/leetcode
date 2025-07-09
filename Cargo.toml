@@ -166,3 +166,7 @@ path = "src/bin/remove_duplicates_from_sorted_list.rs"
 [[bin]]
 name = "construct_rectangle"
 path = "src/bin/construct_rectangle.rs"
+
+[[bin]]
+name = "merge_sorted_array"
+path = "src/bin/merge_sorted_array.rs"
