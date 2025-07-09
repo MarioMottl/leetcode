@@ -134,3 +134,7 @@ path = "src/bin/reverse_only_letters.rs"
 [[bin]]
 name = "maximum_sum_circular_subarray"
 path = "src/bin/maximum_sum_circular_subarray.rs"
+
+[[bin]]
+name = "delete_node_from_linked_list_present_in_array"
+path = "src/bin/delete_node_from_linked_list_present_in_array.rs"
