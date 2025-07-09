@@ -142,3 +142,7 @@ path = "src/bin/delete_node_from_linked_list_present_in_array.rs"
 [[bin]]
 name = "minimum_cost_cutting_cake"
 path = "src/bin/minimum_cost_cutting_cake.rs"
+
+[[bin]]
+name = "find_winning_player"
+path = "src/bin/find_winning_player.rs"
