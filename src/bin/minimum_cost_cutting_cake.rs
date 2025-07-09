@@ -1,3 +1,4 @@
+#[allow(unused)]
 pub fn minimum_cost(
     m: i32,
     n: i32,

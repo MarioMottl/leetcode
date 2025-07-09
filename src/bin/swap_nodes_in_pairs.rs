@@ -4,6 +4,7 @@ pub struct ListNode {
     pub next: Option<Box<ListNode>>,
 }
 
+#[allow(unused)]
 impl ListNode {
     fn new(val: i32) -> Self {
         Self { val, next: None }

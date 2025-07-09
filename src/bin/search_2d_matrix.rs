@@ -25,6 +25,7 @@ pub fn search_matrix(matrix: Vec<Vec<i32>>, target: i32) -> bool {
     false
 }
 
+#[allow(unused)]
 fn search_matrix_binary(matrix: Vec<Vec<i32>>, target: i32) -> bool {
     if matrix.is_empty() || matrix[0].is_empty() {
         return false;

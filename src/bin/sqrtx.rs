@@ -33,5 +33,7 @@ fn main() {}
 
 #[cfg(test)]
 mod tests {
+
+    #[allow(unused)]
     use super::*;
 }
