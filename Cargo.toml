@@ -182,3 +182,7 @@ path = "src/bin/pascals_triangle2.rs"
 [[bin]]
 name = "best_time_buy_sell_stock"
 path = "src/bin/best_time_buy_sell_stock.rs"
+
+[[bin]]
+name = "valid_palindrome"
+path = "src/bin/valid_palindrome.rs"
