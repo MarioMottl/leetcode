@@ -138,3 +138,7 @@ path = "src/bin/maximum_sum_circular_subarray.rs"
 [[bin]]
 name = "delete_node_from_linked_list_present_in_array"
 path = "src/bin/delete_node_from_linked_list_present_in_array.rs"
+
+[[bin]]
+name = "minimum_cost_cutting_cake"
+path = "src/bin/minimum_cost_cutting_cake.rs"
