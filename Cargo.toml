@@ -154,3 +154,7 @@ path = "src/bin/number_of_bit_changes.rs"
 [[bin]]
 name = "find_if_digit_game_can_be_won"
 path = "src/bin/find_if_digit_game_can_be_won.rs"
+
+[[bin]]
+name = "sqrtx"
+path = "src/bin/sqrtx.rs"
