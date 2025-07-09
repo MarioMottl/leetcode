@@ -158,3 +158,7 @@ path = "src/bin/find_if_digit_game_can_be_won.rs"
 [[bin]]
 name = "sqrtx"
 path = "src/bin/sqrtx.rs"
+
+[[bin]]
+name = "remove_duplicates_from_sorted_list"
+path = "src/bin/remove_duplicates_from_sorted_list.rs"
