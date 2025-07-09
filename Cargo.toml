@@ -146,3 +146,7 @@ path = "src/bin/minimum_cost_cutting_cake.rs"
 [[bin]]
 name = "find_winning_player"
 path = "src/bin/find_winning_player.rs"
+
+[[bin]]
+name = "number_of_bit_changes"
+path = "src/bin/number_of_bit_changes.rs"
