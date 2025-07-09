@@ -186,3 +186,7 @@ path = "src/bin/best_time_buy_sell_stock.rs"
 [[bin]]
 name = "valid_palindrome"
 path = "src/bin/valid_palindrome.rs"
+
+[[bin]]
+name = "single_number"
+path = "src/bin/single_number.rs"
