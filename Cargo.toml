@@ -178,3 +178,7 @@ path = "src/bin/pascals_triangle.rs"
 [[bin]]
 name = "pascals_triangle2"
 path = "src/bin/pascals_triangle2.rs"
+
+[[bin]]
+name = "best_time_buy_sell_stock"
+path = "src/bin/best_time_buy_sell_stock.rs"
