@@ -190,3 +190,7 @@ path = "src/bin/valid_palindrome.rs"
 [[bin]]
 name = "single_number"
 path = "src/bin/single_number.rs"
+
+[[bin]]
+name = "excel_sheet_column_number"
+path = "src/bin/excel_sheet_column_number.rs"
