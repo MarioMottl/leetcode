@@ -218,3 +218,7 @@ path = "src/bin/reverse_linked_list.rs"
 [[bin]]
 name = "first_bad_version"
 path = "src/bin/first_bad_version.rs"
+
+[[bin]]
+name = "move_zeroes"
+path = "src/bin/move_zeroes.rs"
