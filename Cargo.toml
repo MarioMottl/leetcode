@@ -202,3 +202,7 @@ path = "src/bin/reverse_bits.rs"
 [[bin]]
 name = "numbers_of_1_bits"
 path = "src/bin/numbers_of_1_bits.rs"
+
+[[bin]]
+name = "happy_number"
+path = "src/bin/happy_number.rs"
