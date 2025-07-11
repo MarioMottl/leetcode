@@ -210,3 +210,7 @@ path = "src/bin/happy_number.rs"
 [[bin]]
 name = "remove_linked_list_element"
 path = "src/bin/remove_linked_list_element.rs"
+
+[[bin]]
+name = "reverse_linked_list"
+path = "src/bin/reverse_linked_list.rs"
