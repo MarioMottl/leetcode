@@ -206,3 +206,7 @@ path = "src/bin/numbers_of_1_bits.rs"
 [[bin]]
 name = "happy_number"
 path = "src/bin/happy_number.rs"
+
+[[bin]]
+name = "remove_linked_list_element"
+path = "src/bin/remove_linked_list_element.rs"
