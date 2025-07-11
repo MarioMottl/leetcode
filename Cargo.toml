@@ -222,3 +222,7 @@ path = "src/bin/first_bad_version.rs"
 [[bin]]
 name = "move_zeroes"
 path = "src/bin/move_zeroes.rs"
+
+[[bin]]
+name = "nim_game"
+path = "src/bin/nim_game.rs"
