@@ -230,3 +230,7 @@ path = "src/bin/nim_game.rs"
 [[bin]]
 name = "fizz_buzz"
 path = "src/bin/fizz_buzz.rs"
+
+[[bin]]
+name = "assign_cookies"
+path = "src/bin/assign_cookies.rs"
