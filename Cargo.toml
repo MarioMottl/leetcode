@@ -238,3 +238,7 @@ path = "src/bin/assign_cookies.rs"
 [[bin]]
 name = "ransom_note"
 path = "src/bin/ransom_note.rs"
+
+[[bin]]
+name = "roman_to_integer"
+path = "src/bin/roman_to_integer.rs"
