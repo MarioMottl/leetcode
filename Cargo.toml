@@ -242,3 +242,7 @@ path = "src/bin/ransom_note.rs"
 [[bin]]
 name = "roman_to_integer"
 path = "src/bin/roman_to_integer.rs"
+
+[[bin]]
+name = "reverse_linked_list_II"
+path = "src/bin/reverse_linked_list_II.rs"
