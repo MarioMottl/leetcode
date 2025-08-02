@@ -1,4 +1,4 @@
-fn is_bad_version(version: i32) -> bool {
+fn is_bad_version(_version: i32) -> bool {
     return false;
 }
 

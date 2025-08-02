@@ -21,8 +21,3 @@ pub fn is_happy(n: u32) -> bool {
 }
 
 fn main() {}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-}
