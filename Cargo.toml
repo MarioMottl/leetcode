@@ -250,3 +250,7 @@ path = "src/bin/reverse_linked_list_II.rs"
 [[bin]]
 name = "power_of_two"
 path = "src/bin/power_of_two.rs"
+
+[[bin]]
+name = "contains_duplicate"
+path = "src/bin/contains_duplicate.rs"
