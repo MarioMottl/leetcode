@@ -258,3 +258,7 @@ path = "src/bin/contains_duplicate.rs"
 [[bin]]
 name = "valid_anagram"
 path = "src/bin/valid_anagram.rs"
+
+[[bin]]
+name = "longest_consecutive_sequence"
+path = "src/bin/longest_consecutive_sequence.rs"
