@@ -282,3 +282,7 @@ path = "src/bin/valid_sudoku.rs"
 [[bin]]
 name = "min_stack"
 path = "src/bin/min_stack.rs"
+
+[[bin]]
+name = "reverse_polish_notation"
+path = "src/bin/reverse_polish_notation.rs"
