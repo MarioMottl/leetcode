@@ -290,3 +290,7 @@ path = "src/bin/reverse_polish_notation.rs"
 [[bin]]
 name = "daily_temperatures"
 path = "src/bin/daily_temperatures.rs"
+
+[[bin]]
+name = "car_fleet"
+path = "src/bin/car_fleet.rs"
