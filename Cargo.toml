@@ -270,3 +270,7 @@ path = "src/bin/product_except_self.rs"
 [[bin]]
 name = "group_anagrams"
 path = "src/bin/group_anagrams.rs"
+
+[[bin]]
+name = "top_k_frequent_elements"
+path = "src/bin/top_k_frequent_elements.rs"
