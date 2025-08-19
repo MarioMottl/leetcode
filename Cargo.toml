@@ -262,3 +262,7 @@ path = "src/bin/valid_anagram.rs"
 [[bin]]
 name = "longest_consecutive_sequence"
 path = "src/bin/longest_consecutive_sequence.rs"
+
+[[bin]]
+name = "product_except_self"
+path = "src/bin/product_except_self.rs"
