@@ -274,3 +274,7 @@ path = "src/bin/group_anagrams.rs"
 [[bin]]
 name = "top_k_frequent_elements"
 path = "src/bin/top_k_frequent_elements.rs"
+
+[[bin]]
+name = "valid_sudoku"
+path = "src/bin/valid_sudoku.rs"
