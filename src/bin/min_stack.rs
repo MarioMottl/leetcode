@@ -7,6 +7,7 @@ struct MinStack {
  * `&self` means the method takes an immutable reference.
  * If you need a mutable reference, change it to `&mut self` instead.
  */
+#[allow(unused)]
 impl MinStack {
     fn new() -> Self {
         Self {
@@ -39,8 +40,3 @@ impl MinStack {
 }
 
 fn main() {}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-}
