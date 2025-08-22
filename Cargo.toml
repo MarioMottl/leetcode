@@ -294,3 +294,7 @@ path = "src/bin/daily_temperatures.rs"
 [[bin]]
 name = "car_fleet"
 path = "src/bin/car_fleet.rs"
+
+[[bin]]
+name = "minimum_area"
+path = "src/bin/minimum_area.rs"
